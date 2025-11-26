@@ -11,7 +11,7 @@ usecaseDiagram
     actor Teacher
     actor Student
 
-    package "Time Table System" {
+    rectangle "Time Table System" {
         usecase "Create Timetable" as UC1
         usecase "View Timetable" as UC2
     }
